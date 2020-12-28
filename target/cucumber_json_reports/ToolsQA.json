@@ -1,0 +1,110 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-28T20:13:45.208Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7493859300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC Validar login con datos correctos",
+        "description": "",
+        "id": "login-exitoso;tc-validar-login-con-datos-correctos;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 620242900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5628523700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "He abierto el sitio web de ToolsQA Demo",
+            "match": {
+              "location": "HomePageSteps.he_abierto_el_sitio_web_de_ToolsQA_Demo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8164280500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ingreso al login de la seccion Book Store",
+            "match": {
+              "location": "HomePageSteps.ingreso_al_login_de_la_seccion_Book_Store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2222312300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Realizo el login con \"kikeshnai7\" y \"Selenium1*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kikeshnai7\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Selenium1*\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginPageSteps.realizo_el_login_con_y(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 502560700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Valido el ingreso al perfil \"kikeshnai7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kikeshnai7\"",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginPageSteps.valido_el_ingreso_al_perfil(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Exitoso",
+    "description": "",
+    "id": "login-exitoso",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
