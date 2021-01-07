@@ -7,7 +7,7 @@ public class HomePageSteps extends BaseSteps {
 	
 	@Given("^He abierto el sitio web de ToolsQA Demo$")
 	public void he_abierto_el_sitio_web_de_ToolsQA_Demo() {
-	    
+		
 		objHomePage.LanzarApp("https://demoqa.com/");
 	}
 	

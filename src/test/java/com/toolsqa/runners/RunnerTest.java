@@ -16,4 +16,4 @@ import cucumber.api.junit.Cucumber;
 				"com.toolsqa.pages",
 			   	"com.toolsqa.steps"})
 
-public class Runner { }
+public class RunnerTest { }

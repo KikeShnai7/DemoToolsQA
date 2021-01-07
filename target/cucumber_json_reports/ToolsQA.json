@@ -1,13 +1,13 @@
 [
   {
-    "line": 4,
+    "line": 5,
     "elements": [
       {
-        "start_timestamp": "2020-12-28T20:13:45.208Z",
+        "start_timestamp": "2020-12-30T19:43:04.309Z",
         "before": [
           {
             "result": {
-              "duration": 7493859300,
+              "duration": 8066987100,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 14,
+        "line": 15,
         "name": "TC Validar login con datos correctos",
         "description": "",
         "id": "login-exitoso;tc-validar-login-con-datos-correctos;;2",
         "after": [
           {
             "result": {
-              "duration": 620242900,
+              "duration": 669372900,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5628523700,
+              "duration": 5968669000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "He abierto el sitio web de ToolsQA Demo",
             "match": {
               "location": "HomePageSteps.he_abierto_el_sitio_web_de_ToolsQA_Demo()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 8164280500,
+              "duration": 8374721200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Ingreso al login de la seccion Book Store",
             "match": {
               "location": "HomePageSteps.ingreso_al_login_de_la_seccion_Book_Store()"
@@ -59,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 2222312300,
+              "duration": 1396300,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Realizo el login con \"kikeshnai7\" y \"Selenium1*\"",
             "match": {
               "arguments": [
@@ -81,10 +81,10 @@
           },
           {
             "result": {
-              "duration": 502560700,
+              "duration": 84700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Valido el ingreso al perfil \"kikeshnai7\"",
             "match": {
               "arguments": [

@@ -1,0 +1,8 @@
+com\toolsqa\steps\HomePageSteps.class
+com\toolsqa\pages\HomePage.class
+com\toolsqa\steps\BaseSteps.class
+com\toolsqa\pages\LoginPage.class
+com\toolsqa\hooks\Hooks.class
+com\toolsqa\runners\RunnerTest.class
+com\toolsqa\steps\LoginPageSteps.class
+com\toolsqa\methods\WebActions.class
